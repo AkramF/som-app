@@ -39,14 +39,14 @@ export default function HomeScreen() {
           <View style={styles.buttonsContainer}>
             <TouchableOpacity
               style={styles.button}
-              onPress={() => openPDF(require('../assets/documents/programme.pdf'), 'Programme')}
+              onPress={() => openPDF(require('../assets/documents/presentation.pdf'), 'Programme')}
               activeOpacity={0.8}>
               <Text style={styles.buttonText}>PROGRAMME</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
               style={styles.button}
-              onPress={() => openPDF(require('../assets/documents/presentation.pdf'), 'Présentation')}
+              onPress={() => openPDF(require('../assets/documents/présentation.pdf'), 'Présentation')}
               activeOpacity={0.8}>
               <Text style={styles.buttonText}>PRÉSENTATION</Text>
             </TouchableOpacity>

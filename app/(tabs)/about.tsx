@@ -1,12 +1,12 @@
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import { Calendar, MapPin, Users } from 'lucide-react-native';
+import { Users, Mail, Globe, Heart } from 'lucide-react-native';
 
 export default function AboutScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <View style={styles.header}>
         <View style={styles.iconCircle}>
-          <Users size={60} color="#ee1b21" strokeWidth={1.5} />
+          <<Users size={48} color="#ee1b21" strokeWidth={2} />          >
         </View>
         <Text style={styles.title}>Special Olympics Morocco</Text>
         <Text style={styles.subtitle}>
