@@ -1,0 +1,45 @@
+# Ignore macOS system files
+.DS_Store
+.Trash
+**/.Trash
+**/.DS_Store
+
+# Ignore user directories
+/Users/
+Library/
+Desktop/
+Documents/
+Downloads/
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build artifacts
+.expo/
+dist/
+.expo-shared/
+web-build/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Ignore environment files (except production)
+.env.local
+.env.*.local
+
+# Ignore TypeScript build info
+*.tsbuildinfo
