@@ -6,7 +6,7 @@ export default function AboutScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <View style={styles.header}>
         <View style={styles.iconCircle}>
-          <<Users size={48} color="#ee1b21" strokeWidth={2} />          >
+          <Users size={48} color="#ee1b21" strokeWidth={2} />
         </View>
         <Text style={styles.title}>Special Olympics Morocco</Text>
         <Text style={styles.subtitle}>
